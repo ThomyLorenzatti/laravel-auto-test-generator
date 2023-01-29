@@ -1,0 +1,26 @@
+{
+    "name": "thomyl/laravel-auto-test-generator",
+    "description": "Laravel >=6 package for generating unit test automatically",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomy L",
+            "email": "thomy.lorenzatti@epitech.eu"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.9.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "thomyl\\LaravelAutoTestGenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "thomyl\\LaravelAutoTestGenerator\\TestGeneratorServiceProvider"
+            ]
+        }
+    }
+}
